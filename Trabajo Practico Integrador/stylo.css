@@ -15,24 +15,26 @@ body{
  border-radius: 10px;
  font-family: 'Calibri';
 color: black;
-box-shadow: 7px 13px 37px #1A1786;
+box-shadow: 13px 13px 37px 13px #1A1786;
 }
 .form-register h2{
-font-size: 22px;
-margin-bottom: 20px;
+font-size: 26px;
+margin-bottom:10px;
+text-align: center;
+padding-bottom: 30px;
 }  
 .controls{
     width: 100%;
-    padding: 9px;
+    padding: 8px;
     border-radius:none;
-    margin-bottom: 16px;
-    border: 2px solid  #1A1786;
+    margin-bottom: 8px;
+    border: 1px solid  rgba(27, 23, 135, 0.329);
     font-family: 'calibri';
     font-size: 18px;
 }  
 .form-register .botons{
     width: 100%;
-    background: #1A1786;
+    background: #1b1786fb;
     border: none;
     padding: 12px;
     color: white;
