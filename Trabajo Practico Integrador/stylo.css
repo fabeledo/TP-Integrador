@@ -24,7 +24,7 @@ margin-bottom: 20px;
 .controls{
     width: 100%;
     padding: 9px;
-    border-radius:;
+    border-radius:none;
     margin-bottom: 16px;
     border: 2px solid  #1A1786;
     font-family: 'calibri';
@@ -40,11 +40,3 @@ margin-bottom: 20px;
     font-size: 16px;
     border-radius: 7px;
 }
-
-    /*
- {
-    font-size: 20px;
-    font-family:'Popppins', sans-serif;
-    background-color: rgba(115, 112, 112, 1) ;
-}
- 
