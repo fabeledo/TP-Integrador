@@ -10,16 +10,20 @@
     <link rel="stylesheet" href="./stylo.css">
   </head>
   <body>
-    <section class="form-register">
-      <p><h2>Formulario de Registro
-           <img src="./registrar.png" width="80" height="80" align="right"/>
-      </h2>
-      <input class="controls" type="text"name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-      <input class="controls" type="email"name="correo" id="correo" placeholder="Ingrese su Email">
+    <section class="form-register" id="step-1">
+      <p><h2>Formulario de Registro<img src="./registrar.png" width="80" height="80" alig="right"/></h2>
+        
+      <input class="controls" type="text"name="nombres"required id="nombres" placeholder="Ingrese su Nombre">
+      <input class="controls" type="email"name="correo"required id="correo" placeholder="Ingrese su Email">
       <P></P>
-      <input class="botons" type="submit" value="Siguiente">
+      <button class="botons" type="button" id="next-btn">Siguiente</button>
+    </section>
+
+    <section class="form-register1" id="step-2">
+       <h2>Resumen</h2>
+      <div class="summary" id="summary"></div>
     </section>
     
-    <script src="" async defer></script>
+    <script src="./app.js" async defer></script>
   </body>
 </html>
