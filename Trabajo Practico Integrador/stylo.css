@@ -4,7 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(407.jpg);
+    background-image: url(./blancoynegro.jpg);
+    background-image: no-repeat;
+    background-image: fixed;
+    background-position: top center;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 .form-register{
  width: 400px;
